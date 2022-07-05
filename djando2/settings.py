@@ -14,7 +14,7 @@ import os
 import dj_database_url
 from pathlib import Path
 
-# Usando PostgreSQL com Heroku
+# Usando PostgreSQL Heroku
 DATABASES = {
     'default': dj_database_url.config()
 }
