@@ -14,6 +14,7 @@ dbus-python==1.2.16
 defer==1.0.6
 distro==1.4.0
 distro-info===0.23ubuntu1
+dj-database-url==0.5.0
 Django==2.2.12
 django-bootstrap4==22.1
 django-stdimage==6.0.1
@@ -39,6 +40,7 @@ olefile==0.46
 paramiko==2.6.0
 pexpect==4.6.0
 Pillow==9.1.1
+psycopg2-binary==2.9.3
 pycairo==1.16.2
 pycups==1.9.73
 PyGObject==3.36.0
@@ -60,7 +62,7 @@ soupsieve==2.3.2.post1
 sqlparse==0.2.4
 ssh-import-id==5.10
 systemd-python==234
-ubuntu-advantage-tools==27.8
+ubuntu-advantage-tools==27.9
 ubuntu-drivers-common==0.0.0
 ufw==0.36
 unattended-upgrades==0.1
