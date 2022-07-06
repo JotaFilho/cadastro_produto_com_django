@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
+    {% if produtos %}
     <div class="container">
         <h1>Page products</h1>
 
@@ -48,6 +49,9 @@
                 {% endfor %}
             </tbody>
         </table>
+        {% else %}
+            <h2> Ainda não existem produtos cadastrados. :(</h2>
+        {% endif %}
     </div>
     {% bootstrap_javascript jquery='full' %}
 </body>
